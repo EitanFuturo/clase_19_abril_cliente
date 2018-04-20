@@ -1,0 +1,80 @@
+/*styles.css*/
+@Charset "utf-8";
+
+/* Eliminar predeterminados*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+/* Termina Eliminar predeterminados  */
+
+.container{
+  max-width: 720px;
+  margin: auto;
+  background: #beb4b4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-nav div{
+  margin: 1em 1em;
+}
+.container-nav{
+  display: flex;
+	flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+.todos{
+  background-color: blue;
+  border-radius: .3em;
+  width: 20%;
+  height: 4em;
+  cursor: pointer;
+
+}
+.user1{
+  background-color: red;
+  border-radius: .3em;
+  width: 20%;
+  height: 4em;
+  cursor: pointer;
+
+}
+.user2{
+  background-color: peru;
+  border-radius: .3em;
+  width: 20%;
+  height: 4em;
+  cursor: pointer;
+
+}
+.user3{
+  background-color: gray;
+  border-radius: .3em;
+  width: 20%;
+  height: 4em;
+  cursor: pointer;
+}
+
+.titulo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em 1em;
+
+}
+
+.formulario_servicios{
+margin-left: 2em;
+}
+
+h2{
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
