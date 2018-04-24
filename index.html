@@ -32,39 +32,41 @@
 
       <main>
         <p class="titulo">Servicios de <span class="usuario" id="usuario"> Todos*</span> </p>
-        <form class="formulario_servicios">
+        <form class="formulario_servicios" id="form">
           <div>
             <label for="uname">Luz </label>
-            <input type="text" name="Luz">
+            <input type="number" name="Luz" id="luz">
           </div>
           <div>
             <label for="uname">Gas </label>
-            <input type="text" name="Gas">
+            <input type="number" name="Gas" id="gas">
           </div>
           <div>
             <label for="uname">Agua </label>
-            <input type="text" name="Agua">
+            <input type="number" name="Agua" id="agua">
           </div>
           <div>
             <label for="uname">Internet </label>
-            <input type="text" name="Internet">
+            <input type="number" name="Internet" id="internet">
           </div>
           <div>
             <label for="uname">ABL </label>
-            <input type="text" name="ABL">
+            <input type="number" name="ABL" id="abl">
           </div>
           <div>
             <label for="uname">Comida </label>
-            <input type="text"  name="Comida">
+            <input type="number"  name="Comida" id="comida">
           </div>
           <div>
-            <button>Calcular</button>
+            <input type="submit" value="Calcular">
           </div>
-          <p><h2>Total</h2></p>
+          <p><h2 id="total">Total</h2></p>
         </form>
 
       </main>
     </div>
+
+    <script type="text/javascript" src="./scripts/scripts.js"></script>
 
   </body>
 </html>
